@@ -1,0 +1,30 @@
+{
+ "actions": [],
+ "creation": "2024-07-26 10:48:14.028258",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "services_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "services_name",
+   "fieldtype": "Link",
+   "label": "Services Name",
+   "options": "Service Type"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-29 15:27:32.776586",
+ "modified_by": "Administrator",
+ "module": "Lead Managment",
+ "name": "Service",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

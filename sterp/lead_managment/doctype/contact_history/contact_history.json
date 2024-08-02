@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-25 16:11:21.132829",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "contact_date",
+  "response",
+  "status",
+  "reason"
+ ],
+ "fields": [
+  {
+   "default": "Today",
+   "fieldname": "contact_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Contact Date"
+  },
+  {
+   "fieldname": "response",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Response"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "\nWon\nLose\nOn going\non Waiting"
+  },
+  {
+   "fieldname": "reason",
+   "fieldtype": "Link",
+   "label": "Reason",
+   "options": "Reasons"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-29 15:12:57.220796",
+ "modified_by": "Administrator",
+ "module": "Lead Managment",
+ "name": "Contact History",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,128 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:client_name",
+ "creation": "2024-07-25 15:57:14.115845",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "client_name",
+  "service_type",
+  "address",
+  "column_break_jgdf",
+  "sector",
+  "main_service",
+  "section_break_piob",
+  "contact_details",
+  "section_break_boug",
+  "contact_history",
+  "contact_information",
+  "contact_nos",
+  "social_links"
+ ],
+ "fields": [
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Client Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "service_type",
+   "fieldtype": "Table MultiSelect",
+   "label": "Service Type",
+   "options": "Service"
+  },
+  {
+   "fieldname": "section_break_piob",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "main_service",
+   "fieldtype": "Table MultiSelect",
+   "label": "Main Service",
+   "link_filters": "[]",
+   "options": "Sub Service Category"
+  },
+  {
+   "fieldname": "section_break_boug",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "contact_history",
+   "fieldtype": "Table",
+   "label": "Contact History",
+   "options": "Contact History"
+  },
+  {
+   "fieldname": "contact_information",
+   "fieldtype": "Table",
+   "label": "Contact Information",
+   "options": "Contact Email"
+  },
+  {
+   "fieldname": "contact_nos",
+   "fieldtype": "Table",
+   "label": "Contact Nos",
+   "options": "Contact Phone"
+  },
+  {
+   "fieldname": "sector",
+   "fieldtype": "Link",
+   "label": "Sector",
+   "options": "Industry Type"
+  },
+  {
+   "fieldname": "social_links",
+   "fieldtype": "Table",
+   "label": "Social Links",
+   "options": "Social Media Links"
+  },
+  {
+   "fieldname": "column_break_jgdf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "contact_details",
+   "fieldtype": "Table",
+   "label": "Contact Details",
+   "options": "Contact Information"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-29 15:46:44.058424",
+ "modified_by": "Administrator",
+ "module": "Lead Managment",
+ "name": "ST Leads",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

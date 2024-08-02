@@ -1,0 +1,30 @@
+{
+ "actions": [],
+ "creation": "2024-07-26 10:46:26.723868",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sub_service_category"
+ ],
+ "fields": [
+  {
+   "fieldname": "sub_service_category",
+   "fieldtype": "Link",
+   "label": "Sub Service Category",
+   "options": "Sub Service"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-29 15:28:45.332369",
+ "modified_by": "Administrator",
+ "module": "Lead Managment",
+ "name": "Sub Service Category",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
