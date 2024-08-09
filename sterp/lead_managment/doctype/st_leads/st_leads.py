@@ -15,7 +15,7 @@ class STLeads(Document):
         primary_phone, whatsapp_phone = self.get_contact_phones()
 
         # Get primary email
-        primary_email = self.get_contact_email()
+        primary_email = self.get_contact_information()
 
         if lead_exists:
             # Update existing lead
