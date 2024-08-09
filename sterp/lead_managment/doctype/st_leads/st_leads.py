@@ -41,7 +41,7 @@ class STLeads(Document):
     def get_contact_email(self):
         if self.contact_information:
             for contact in self.contact_information:
-                if contact.primary:
+                if contact.is_primary:
                     return contact.email
         return None
 
