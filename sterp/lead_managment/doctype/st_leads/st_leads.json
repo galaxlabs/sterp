@@ -9,16 +9,19 @@
  "field_order": [
   "client_name",
   "service_type",
-  "address",
+  "country",
+  "state",
   "column_break_jgdf",
   "sector",
   "main_service",
+  "city",
+  "address",
   "section_break_piob",
   "contact_details",
   "section_break_boug",
   "contact_history",
-  "contact_information",
-  "contact_nos",
+  "contact_email",
+  "contact_phones",
   "social_links"
  ],
  "fields": [
@@ -60,18 +63,6 @@
    "options": "Contact History"
   },
   {
-   "fieldname": "contact_information",
-   "fieldtype": "Table",
-   "label": "Contact Information",
-   "options": "Contact Email"
-  },
-  {
-   "fieldname": "contact_nos",
-   "fieldtype": "Table",
-   "label": "Contact Nos",
-   "options": "Contact Phone"
-  },
-  {
    "fieldname": "sector",
    "fieldtype": "Link",
    "label": "Sector",
@@ -97,11 +88,44 @@
    "fieldtype": "Table",
    "label": "Contact Details",
    "options": "Contact Information"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "label": "Country",
+   "link_filters": "[[\"Country\",\"country_name\",\"=\",\"Pakistan\"]]",
+   "options": "Country"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Select",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "State",
+   "options": "Sindh\nBaluchistan\nKPK\nPunjab\nGilgit Baltistan"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "contact_email",
+   "fieldtype": "Table",
+   "label": "Contact Email",
+   "options": "Contact Email"
+  },
+  {
+   "fieldname": "contact_phones",
+   "fieldtype": "Table",
+   "label": "Contact Phones",
+   "options": "Contact Phone"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-29 15:46:44.058424",
+ "modified": "2024-08-09 12:44:45.267630",
  "modified_by": "Administrator",
  "module": "Lead Managment",
  "name": "ST Leads",
